@@ -1,0 +1,7 @@
+:root {
+  --border: 1px solid #6c63ff;
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
