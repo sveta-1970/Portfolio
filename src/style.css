@@ -5,3 +5,78 @@
   --box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   font-size: 18px;
 }
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 1.5rem;
+  opacity: 0.7;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+a {
+  color: var(--primary-color);
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.contact-link,
+.about-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 20px;
+  border: var(--border);
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-link {
+  background-color: var(--primary-color);
+  color: white;
+}
+.about-link:hover {
+  color: var(--primary-color);
+}
+.homepage-link {
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.about-paragraphs p {
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.5;
+  text-align: center;
+  background-color: var(--secondary-color);
+}
+#contact {
+  text-align: center;
+}
+.email-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.email-link:hover {
+  text-decoration: underline;
+}
