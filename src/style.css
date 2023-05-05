@@ -1,82 +1,79 @@
 :root {
-  --border: 1px solid #6c63ff;
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
-  --box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-  font-size: 18px;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
 body {
-  margin: 60px auto;
-  max-width: 800px;
+  margin-top: 100px;
 }
-h1 {
-  font-size: 5rem;
-}
-h2 {
-  font-size: 2.5rem;
-}
-h3 {
-  font-size: 1.5rem;
-  opacity: 0.7;
-}
+
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
 }
-a {
-  color: var(--primary-color);
+
+h1 {
+  font-size: 96px;
 }
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 20px 0;
+}
+
 .navigation-links {
   display: flex;
+  margin-top: 40px;
   justify-content: center;
-  margin: 50px;
 }
 
-.contact-link,
-.about-link {
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border-radius: 4px;
+  padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  text-align: center;
-  padding: 20px;
-  border: var(--border);
-  border-radius: 10px;
-  margin: 20px;
-  box-shadow: var(--box-shadow);
 }
 
-.contact-link {
-  background-color: var(--primary-color);
-  color: white;
-}
-.about-link:hover {
+.secondary-link {
   color: var(--primary-color);
-}
-.homepage-link {
-  text-align: center;
-  display: block;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
-.about-paragraphs {
-  display: flex;
-  justify-content: space-between;
-  margin: 30px 0;
+.container {
+  margin: 0 auto;
 }
-.about-paragraphs p {
-  padding: 10px;
-  margin: 10px;
-  line-height: 1.5;
-  text-align: center;
-  background-color: var(--secondary-color);
-}
-#contact {
-  text-align: center;
-}
+
 .email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
   text-decoration: none;
-  font-size: 1.5rem;
 }
+
 .email-link:hover {
   text-decoration: underline;
 }
